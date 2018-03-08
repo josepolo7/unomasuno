@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/item_resultlist_background"
+    android:padding="6dp"
+    android:layout_margin="4dp">
+    <ImageView android:id="@+id/flag_imageview"
+        android:layout_height="24dp"
+        android:layout_width="32dp"/>
+    <TextView android:id="@+id/currencycode_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:padding="2dp"
+        android:gravity="left"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <TextView android:id="@+id/currencyvalue_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:padding="2dp"
+        android:gravity="right"
+        />
+</LinearLayout>
